@@ -11,7 +11,7 @@ export default function Hero() {
   return (
     <>
       <section
-        id="home"
+        id="Home"
         className="relative h-screen overflow-hidden bg-[url('/background.jpg')] bg-cover bg-center"
       >
         <TheParticles />

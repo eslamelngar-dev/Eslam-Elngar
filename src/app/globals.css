@@ -11,6 +11,7 @@
 
 html,
 body {
+  scroll-behavior: smooth !important;
   font-family: var(--font-inter) !important;
 }
 .inter {
@@ -103,15 +104,37 @@ body {
   }
 }
 .icon-btn:hover {
-  box-shadow: 0 0 25px var(--niceColor);
+  box-shadow: 0 0 40px 6px rgba(100, 180, 255, 0.464);
 }
 .icon-btn:hover .btn-icon {
   animation: float 1s ease-in-out infinite;
   transform: translateY(-7px);
 }
 .skill-card:hover {
-  transition: all 0.4s ease;
+  transition: all 0.4s ease !important;
 }
 .skill-card:hover {
-  box-shadow: 0 0 20px 1px var(--niceColor) !important;
+  box-shadow: 0 0 40px 6px rgba(100, 180, 255, 0.25);
+}
+.project-img {
+  transition: all 0.4s ease !important;
+}
+.project-card {
+  transition: all 0.4s ease !important;
+}
+.project-card:hover {
+  box-shadow: 0 0 40px 6px rgba(100, 180, 255, 0.25);
+}
+.project-card:hover .project-img {
+  transform: scale(1.05);
+}
+.project-card:hover .project-title {
+  color: var(--niceColor);
+}
+.project-btn {
+  transition: all 0.4s ease !important;
+}
+.project-btn:hover {
+  background-color: #172635;
+  transform: translateY(-5%);
 }

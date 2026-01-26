@@ -1,15 +1,15 @@
 import Typography from "@mui/material/Typography";
+import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
 import Cards from "../UI/Cards";
 import SkillCard from "../UI/SkillCard";
 import { Advantages } from "@/data/Advantages";
 import { Skills } from "@/data/Skills";
-import Container from "@mui/material/Container";
 
 export default function About() {
   return (
     <section
-      id="about"
+      id="About"
       className="relative min-h-screen py-20 bg-[rgb(14,25,38)]"
     >
       <div className="about-content">
