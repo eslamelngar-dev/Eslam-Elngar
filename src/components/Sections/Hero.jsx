@@ -84,7 +84,7 @@ export default function Hero() {
                   background: "var(--niceColor)",
                   borderRadius: "12px",
                   px: { xs: 2, sm: 4, md: 5 },
-                  py: { xs: 0.5, sm: 1, md: 1.5 },
+                  py: { xs: 1, sm: 1, md: 1.5 },
                   fontSize: { xs: "0.9rem", sm: "1rem", md: "1.1rem" },
                   width: { xs: "100%", sm: "auto" },
                 }}
@@ -101,7 +101,7 @@ export default function Hero() {
                   backgroundColor: "rgb(10, 20, 31)",
                   borderRadius: "12px",
                   px: { xs: 2, sm: 4, md: 5 },
-                  py: { xs: 0.5, sm: 1, md: 1.5 },
+                  py: { xs: 1, sm: 1, md: 1.5 },
                   fontSize: { xs: "0.9rem", sm: "1rem", md: "1.1rem" },
                   width: { xs: "100%", sm: "auto" },
                 }}
