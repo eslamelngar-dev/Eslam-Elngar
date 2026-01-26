@@ -7,7 +7,7 @@ import ProjectCard from "../UI/ProjectCard";
 export default function Portfolio() {
   return (
     <section
-      id="About"
+      id="Portfolio"
       className="relative min-h-screen py-20 bg-[#0a141f]"
     >
       <div className="text-center mb-10 px-4">
