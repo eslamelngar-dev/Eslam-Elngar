@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 export default function NavBar() {
   const [open, setOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
-  const navLinks = ["Home", "About", "Portfolio", "Certificates", "Contact"];
+  const navLinks = ["Home", "About", "Portfolio", "Contact"];
 
   useEffect(() => {
     const handleScroll = () => {

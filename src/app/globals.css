@@ -138,3 +138,10 @@ body {
   background-color: #172635;
   transform: translateY(-5%);
 }
+.contact-card {
+  transition: all 0.4s ease !important;
+}
+.contact-card:hover {
+  background-color: rgb(80, 80, 80) !important;
+  box-shadow: 0 0 40px 6px rgba(0, 0, 0, 0.25) !important;
+}

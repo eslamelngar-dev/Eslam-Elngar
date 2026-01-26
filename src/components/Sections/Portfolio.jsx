@@ -8,7 +8,7 @@ export default function Portfolio() {
   return (
     <section
       id="About"
-      className="relative min-h-screen py-20 bg-[rgb(14,25,38)]"
+      className="relative min-h-screen py-20 bg-[#0a141f]"
     >
       <div className="text-center mb-10 px-4">
         <Typography
