@@ -32,7 +32,7 @@ export default function Hero() {
                 lineHeight: "1",
                 mb: "0.8rem",
                 fontSize: {
-                  xs: "4rem", 
+                  xs: "4rem",
                   sm: "5rem",
                   md: "6rem",
                   lg: "6.5rem",
@@ -76,6 +76,7 @@ export default function Hero() {
             </Typography>
             <div className="flex flex-col sm:flex-row justify-center items-center gap-4 mb-5">
               <Button
+                href="#Portfolio"
                 size="large"
                 className="work-btn"
                 variant="contained"
@@ -92,6 +93,7 @@ export default function Hero() {
               </Button>
 
               <Button
+                href="#Contact"
                 size="large"
                 variant="contained"
                 className="getin-btn"
