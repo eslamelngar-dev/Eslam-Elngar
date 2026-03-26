@@ -3,7 +3,7 @@ import CardContent from "@mui/material/CardContent";
 import Typography from "@mui/material/Typography";
 import CardActionArea from "@mui/material/CardActionArea";
 
-export default function CVCard({ icon, Title, url }) {
+export default function CVCard({ icon, Title }) {
   const Icon = icon;
   return (
     <Card
