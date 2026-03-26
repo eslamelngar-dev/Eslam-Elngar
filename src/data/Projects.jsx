@@ -7,7 +7,7 @@ export const Projects = [
       "Reelax is a modern Arabic movie platform where users can discover trending, popular, and top-rated films, watch trailers, browse by categories, rate movies with an interactive star system, and save favorites locally. Features include a cinematic hero slider, cast details, reviews, full search functionality, and a fully responsive dark-themed design. Powered by the TMDb API.",
     Category: "Web App",
     Techs: ["Next js", "Tailwind", "typeScript"],
-    Img: "/Projects-img/eelax.png",
+    Img: "/Projects-img/Reelax.png",
     Visit: "https://Reelax-movies-platform.vercel.app/",
     Code: "https://github.com/eslamelngar-dev/Reelax-Movies-Platform",
   },
