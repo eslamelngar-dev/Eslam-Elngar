@@ -15,7 +15,7 @@ export default function CVCard({ icon, Title }) {
         padding: "1rem",
       }}
     >
-      <CardActionArea component="a" href="/Eslam_Elngar_CV.pdf" download sx={{width:"100%",height:"100%"}} >
+      <CardActionArea component="a" href="/EslamElngarCV.pdf" download sx={{width:"100%",height:"100%"}} >
         <CardContent
           sx={{
             display: "flex",
